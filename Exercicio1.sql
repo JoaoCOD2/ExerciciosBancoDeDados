@@ -12,8 +12,16 @@ Use exercicio1;
 
 Create table funcionarios (
 codFunc integer not null,
-nome varchar (50) not null,
+nomeFunc varchar (50) not null,
 sobrenome varchar (50),
-salario decimal (10,2) not null
+salario decimal (10,2) not null,
+dataNascimento DATE not null     -- Exercicio 2: Adicione uma coluna chamada "DataNascimento" à tabela "Funcionarios" para armazenar a data de nascimento dos funcionários.
+);
+
+-- Exercicio 3: Crie uma nova tabela chamada "Departamentos" com os campos ID (chave primária) e Nome.
+
+create table Departamentos (
+codDep integer not null, 
+nomeDep varchar (50) not null
 );
 
